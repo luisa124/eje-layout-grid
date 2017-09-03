@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*---------------ejercicio layout grit uno-------------*/
+.container { 
+    width: 100%;
+    max-width: 100%;
+    margin: 0px auto;
+    background-color: lavender;
+ }
+ .row:before, .row:after {
+    content: "";
+    display: table;
+ }
+ .row:after {
+    clear: both;
+ }
+ [class*="col-"] {
+    min-height: 7px;
+    padding: 14%;
+    float: left;
+    background-color: darkgray;
+    margin-top: 4%;
+    margin-left: 4%;
+ }
+ 
+ .col- {
+    width: 16.666667%;
+ }
+ .col-1 {
+    width: 16.666667%;
+ }
+ .col-2 {
+    width: 16.666667%;
+ }
+ .col-3 {
+    width: 16.666667%;
+    clear: both;
+ }
+ .col-4 {
+    width: 16.666667%;
+ }
+ .col-5 {
+    width: 16.666667%;
+ }
+ 
+ .col-6 {
+    width: 16.666667%;
+    clear: both;
+ }
+ .col-7 {
+    width: 16.666667%;
+ }
+ .col-8 {
+    width: 16.666667%;
+ }
+
