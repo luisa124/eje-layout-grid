@@ -57,8 +57,8 @@
     width: 16.666667%;
  } */
 
-/*---------------ejercicio layout grit uno-------------*/
-.row:before, .row1:after {
+/*---------------ejercicio layout grit dos-------------*/
+/* .row:before, .row1:after {
     content: "";
     display: table;
  }
@@ -88,3 +88,47 @@
  .col-1 {
     width: 16.666667%;
  }
+ */
+/*---------------ejercicio layout grit tres-------------*/
+.row:before, .row2:after {
+    content: "";
+    display: table;
+ }
+ .row2:after {
+    clear: both;
+ }
+ [class="col-"] {
+    min-height: 7px;
+    
+    padding: 14%;
+    float: left;
+    background-color: darkgray;
+    margin-top: 4%;
+    margin-left: 4%;
+ }
+[class="col-1"] {
+    min-height: 7px;
+    padding: 14%;
+    float: left;
+    background-color: darkgray;
+    margin-top: 4%;
+    margin-left: 4%;
+ }
+[class="col-2"] {
+    min-height: 7px;
+    padding: 14%;
+    float: right;
+    background-color: darkgray;
+    margin-top: 36%;
+    margin-right: 4%;
+ }
+ 
+ .col- {
+    width: 59.888889%;
+ }
+ .col-1 {
+    width: 16.666667%;
+ }
+.col-2 {
+    width: 16.666667%;
+}
