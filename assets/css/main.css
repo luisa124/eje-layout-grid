@@ -10,7 +10,7 @@
     margin: 0px auto;
     background-color: lavender;
  }
- .row:before, .row:after {
+ /* .row:before, .row:after {
     content: "";
     display: table;
  }
@@ -55,5 +55,36 @@
  }
  .col-8 {
     width: 16.666667%;
- }
+ } */
 
+/*---------------ejercicio layout grit uno-------------*/
+.row:before, .row1:after {
+    content: "";
+    display: table;
+ }
+ .row1:after {
+    clear: both;
+ }
+ [class="col-"] {
+    min-height: 7px;
+    padding: 46%;
+    float: left;
+    background-color: darkgray;
+    margin-top: 4%;
+    margin-left: 4%;
+ }
+[class="col-1"] {
+    min-height: 7px;
+    padding: 14%;
+    float: left;
+    background-color: darkgray;
+    margin-top: 4%;
+    margin-left: 4%;
+ }
+ 
+ .col- {
+    width: 50.666667%;
+ }
+ .col-1 {
+    width: 16.666667%;
+ }
