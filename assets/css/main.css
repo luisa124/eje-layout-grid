@@ -134,7 +134,7 @@
  }  */
 
 /*---------------ejercicio layout grit cuatro-------------*/
-.row:before, .row3:after {
+/* .row:before, .row3:after {
     content: "";
     display: table;
  }
@@ -193,4 +193,93 @@
 }
 .col-3 {
     width: 16.666667%;
+} */
+
+/*---------------ejercicio layout grit cinco-------------*/
+.row:before, .row:after {
+    content: "";
+    display: table;
+ }
+ .row:after {
+    clear: both;
+ }
+ [class="col-"] {
+    min-height: 7px;
+    padding: 14%;
+    float: left;
+    background-color: darkgray;
+    margin-top: 4%;
+    margin-left: 4%;
+ }
+ [class="col-1"] {
+    min-height: 7px;
+    padding: 14%;
+    float: left;
+    background-color: darkgray;
+    margin-top: 4%;
+    margin-left: 4%;
+ }
+[class="col-2"] {
+    min-height: 7px;
+    padding: 14%;
+    float: left;
+    background-color: darkgray;
+    margin-top: 4%;
+    margin-left: 4%;
+ }
+[class="col-3"] {
+    min-height: 7px;
+    padding: 14%;
+    float: left;
+    background-color: darkgray;
+    margin-top: 4%;
+    margin-left: 4%;
+ }
+[class="col-4"] {
+    min-height: 7px;
+    padding: 14%;
+    float: left;
+    background-color: darkgray;
+    margin-top: 4%;
+    margin-left: 4%;
+ }
+[class="col-5"] {
+    min-height: 7px;
+    padding: 14%;
+    float: left;
+    background-color: darkgray;
+    margin-top: 4%;
+    margin-left: 4%;
+ }
+[class="col-6"] {
+    min-height: 7px;
+    padding: 14%;
+    float: left;
+    background-color: darkgray;
+    margin-top: 4%;
+    margin-left: 68%;
+ }
+ 
+ .col- {
+    width: 16.666667%;
+ }
+ .col-1 {
+    width: 16.666667%;
+ }
+.col-2 {
+    width: 16.666667%;
 }
+.col-3 {
+    width: 16.666667%;
+}
+ .col-4 {
+    width: 16.666667%;
+ }
+ .col-5 {
+    width: 16.666667%;
+ }
+ 
+ .col-6 {
+    width: 16.666667%;
+    clear: both;
+ }
