@@ -100,7 +100,6 @@
  }
  [class="col-"] {
     min-height: 7px;
-    
     padding: 14%;
     float: left;
      background-color: darkgray;
@@ -284,7 +283,7 @@
  } */
 
 /*---------------ejercicio layout grit seise-------------*/
-.row:before, .row5:after {
+/* .row:before, .row5:after {
     content: "";
     display: table;
  }
@@ -317,5 +316,68 @@
  }
  .col-1 {
     width: 16.666667%;
+ } */
+
+/*---------------ejercicio layout grit seite-------------*/
+.row:before, .row6:after {
+    content: "";
+    display: table;
  }
+ .row6:after {
+    clear: both;
+ }
+[class="col-"] {
+    min-height: px;
+    padding: 14%;
+    padding-left: 46%;
+    padding-top: 14%;
+    float: left;
+    background-color: darkgray;
+    margin-top: 4%;
+    margin-left: 4%;
+ }
+[class="col-1"] {
+    min-height: 7px;
+    padding: 14%;
+    padding-left: 14%;
+    padding-top: 14%;
+    float: left;
+    background-color: darkgray;
+    margin-top: 4%;
+    margin-left: 4%;
+ }
+[class="col-2"] {
+    min-height: 7px;
+    padding: 14%;
+    padding-left: 46%;
+    padding-top: 48%;
+    float: left;
+    background-color: darkgray;
+    margin-top: 4%;
+    margin-left: 4%;
+ }
+[class="col-3"] {
+    min-height: 7px;
+    padding: 14%;
+    padding-left: 14%;
+    padding-top: 48%;
+    float: left;
+    background-color: darkgray;
+    margin-top: 4%;
+    margin-left: 4%;
+ }
+
+ 
+ .col- {
+    width: 59.888889%;
+ }
+ .col-1 {
+    width: 16.666667%;
+ }
+.col-2 {
+    width: 16.666667%;
+ }
+.col-3 {
+    width: 16.666667%;
+}
  
