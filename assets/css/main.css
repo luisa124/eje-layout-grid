@@ -143,7 +143,7 @@
  }
  [class="col-"] {
     min-height: 7px;
-    padding: 28%;
+    padding: 26%;
     padding-top: 0%; 
     padding-left: 66%;
     float: left;
@@ -193,14 +193,14 @@
 }
 .col-3 {
     width: 16.666667%;
-} */
+}  */
 
 /*---------------ejercicio layout grit cinco-------------*/
-.row:before, .row:after {
+/* .row:before, .row4:after {
     content: "";
     display: table;
  }
- .row:after {
+ .row4:after {
     clear: both;
  }
  [class="col-"] {
@@ -281,5 +281,41 @@
  
  .col-6 {
     width: 16.666667%;
+ } */
+
+/*---------------ejercicio layout grit seise-------------*/
+.row:before, .row5:after {
+    content: "";
+    display: table;
+ }
+ .row5:after {
     clear: both;
  }
+[class="col-"] {
+    min-height: 7px;
+    padding: 14%;
+    padding-left: 46%;
+    padding-top: 48%;
+    float: left;
+    background-color: darkgray;
+    margin-top: 36%;
+    margin-left: 4%;
+ }
+[class="col-1"] {
+    min-height: 7px;
+    padding: 14%;
+    padding-left: 14%;
+    padding-top: 14%;
+    float: right;
+    background-color: darkgray;
+    margin-top: 36%;
+    margin-right: 4%;
+ }
+ 
+ .col- {
+    width: 16.888889%;
+ }
+ .col-1 {
+    width: 16.666667%;
+ }
+ 
